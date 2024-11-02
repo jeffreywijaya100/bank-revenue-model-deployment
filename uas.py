@@ -33,7 +33,7 @@ class InputData(BaseModel):
 
 @app.get("/")
 def read_root():
-       return {"message": "Welcome bro n sis"}
+       return {"message": "Welcome"}
 
 @app.post('/predict')
 def predict(df: InputData):
